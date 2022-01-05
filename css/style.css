@@ -1,0 +1,21 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+}
+div{
+    width: 50%;
+}
+.font-color{
+    color: orangered;
+}
+.opening-image{
+    width: 100%;
+}
+.opening-button{
+    text-decoration: none;
+}
