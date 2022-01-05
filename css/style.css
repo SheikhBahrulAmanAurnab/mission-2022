@@ -2,20 +2,39 @@ body{
     font-family: 'Inter', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 70px;
+}
+.opening-text{
+    border-left: 5px orangered solid;
+}
+.font-color{
+    color: orange;
 }
 section{
     display: flex;
 }
-div{
+p{
+    font-size: 20px;
+}
+.scroll-down{
+    margin-top: 20px;
+}
+div img{
+    width: 60%;
+}
+.half-width{
+    padding-left: 30px;
     width: 50%;
-}
-.font-color{
-    color: orangered;
-}
-.opening-image{
-    width: 100%;
 }
 .opening-button{
     text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(red,orange);
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+.midle-mission{
+    text-align: center;
+    font-size: 50px;
 }
