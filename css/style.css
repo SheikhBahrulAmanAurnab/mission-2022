@@ -3,50 +3,56 @@ body{
     margin: 0;
     overflow-x: hidden; 
 }
+section{
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 h1{
-    font-size: 50px;
-    margin-left: 5%;
+    font-size: 52px;
+    margin-left: 3%;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 34px;
+}
+h5{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
 }
 .opening-text{
     border-left: 5px orangered solid;
-}
-.font-color{
-    color: orange;
-}
-section{
-    display: flex;
+    border-bottom: 1px;
 }
 section #starting-title{
     margin-top: 5%;
     margin-left: 5%;
 }
-p{
-    font-size: 20px;
-}
-.half-width img{
+img{
     width: 80%;
-    padding-right: 30%;
 }
 .half-width{
     padding-left: 30px;
     width: 50%;
     padding-left: 5%;
 }
-.opening-button{
+a{
     text-decoration: none;
     padding: 10px 20px;
     color: white;
     background-image: linear-gradient(red,orange);
     border-radius: 5px;
-    margin-bottom: 60px;
 }
 .midle-mission{
     text-align: center;
-    font-size: 50px;
-    padding-top: 5%;
-}
-section div img{
-    width: 35%;
 }
 #mission-picture{
     background-color: rgb(221, 207, 221);
@@ -75,9 +81,13 @@ section div img{
     border-radius: 10px;
     box-shadow: 10px 10px 40px white;
 }
+.picture img{
+    width: 35%;
+}
+
 footer{
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     background-color: black;
     color: white;
 }
